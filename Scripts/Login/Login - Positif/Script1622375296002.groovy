@@ -24,11 +24,11 @@ WebUI.maximizeWindow()
 //Click button Sign In
 WebUI.click(findTestObject('Object Repository/btnSignIn'))
 
+//Input Username
+WebUI.setText(findTestObject('Object Repository/fieldEmailSignIn'), 'akbargilang98@gmail.com')
+
 WebUI.closeBrowser()
 
-////Input Username
-//WebUI.setText(findTestObject('Object Repository/fieldEmailSignIn'), 'akbargilang98@gmail.com')
-//
 ////Click Button Next
 //WebUI.click(findTestObject('Object Repository/btnNextSignIn'))
 //
