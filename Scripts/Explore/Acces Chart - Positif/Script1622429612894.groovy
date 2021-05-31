@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Explore/cardChart'))
 //Verify Chart Content Present
 WebUI.verifyElementPresent(findTestObject('Object Repository/Explore/titlePageChart'), 0)
 
-//Verify Chart Content Present
+//Verify Chart Filter  Present
 WebUI.verifyElementPresent(findTestObject('Object Repository/Explore/filterByCountryChart'), 0)
 
 //Verify Chart Content Present
